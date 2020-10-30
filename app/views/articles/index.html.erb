@@ -1,5 +1,7 @@
 <h1>All Articles</h1>
 
+<%= link_to "View by tags", tags_path %>
+<hr>
 <ul id = "articles">
   <% @articles.each do |article|%>
     <li>
